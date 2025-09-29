@@ -34,10 +34,10 @@
 
 ---
 <!-- Added the definition of Actuator as it was missing from the original notes and is a required syllabus point. -->
-<ins>
+
 > [!NOTE]
 > 🔑 An **Actuator (执行器)** is an output device that converts a control signal from the processor into physical action. It is the component that directly causes a change in the environment. For example, a motor, a pump, a heater, or a valve.
-</ins>
+
 
 ---
 

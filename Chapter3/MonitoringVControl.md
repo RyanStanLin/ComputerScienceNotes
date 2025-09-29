@@ -20,6 +20,7 @@
 *   **Patient Monitoring (病患监护)**
     -   Tracks vital signs like **heart rate (心率)**, **oxygen levels (血氧水平)**, and **blood pressure (血压)** in real-time.
     -   Alerts medical staff if readings go outside safe ranges.
+    
     > [!WARNING]
     > The system itself just records and displays data; it does not directly treat the patient. This is a key feature of a monitoring system.
 

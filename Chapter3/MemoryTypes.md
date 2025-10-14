@@ -4,7 +4,7 @@
 
 ### 🔑 What is RAM?
 
-**RAM (Random Access Memory / 随机存取存储器)** is a type of **primary storage (主存储)** that is directly connected to the `CPU` and holds the data and instructions that are _currently in use_ by the system.
+**RAM (Random Access Memory / 随机存取存储器)** is a type of **primary storage (主存储)** that is directly connected to the `CPU` and holds the data and instructions that are _currently in use_ by the system, also called "Main Memory" in Von Neumann Model.
 
 -   **RAM** is **_Volatile (易失性)_**, which means its contents are lost when the power is turned off.
 -   For the `CPU` to access data and instructions, they must first be copied from **secondary storage (二级存储)** into RAM.
@@ -40,6 +40,7 @@
 | **Stores (存储内容)** | Programs and data currently in use | **Bootstrap (引导程序)** and **BIOS** |
 | **Read/Write (读写)** | ✅ Read & Write | ❌ Read Only (Typically) |
 | **Volatility (易失性)** | **Volatile (易失性)** | **Non-volatile (非易失性)** |
+| **Name in Von Neumann Model (Von Neumann Model中的别称)** | **Main Memory** | N/A |
 
 > [!IMPORTANT]
 > **_Volatile Memory_** requires power to maintain the stored information.

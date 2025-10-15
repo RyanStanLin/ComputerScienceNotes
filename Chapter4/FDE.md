@@ -23,8 +23,10 @@ The cycle proceeds through the following steps:
 
 ### 1. Fetch Stage (取指阶段)
 1.  The **Program Counter (PC / 程序计数器)** is loaded with the memory address of the first instruction of the program.
-    > [!WARNING]
-    > A common misconception is that the **PC** always starts at `0`. In reality, it's loaded with the starting address assigned by the operating system.
+
+> [!WARNING]
+> A common misconception is that the **PC** always starts at `0`. In reality, it's loaded with the starting address assigned by the operating system.
+
 2.  The address stored in the **PC** is copied to the **Memory Address Register (MAR / 内存地址寄存器)**.
 3.  The address in the **MAR** is sent to main memory via the **Address Bus (地址总线)**. Simultaneously, a 'read' signal is sent on the **Control Bus (控制总线)**.
 4.  The instruction at that memory location is sent from memory back to the CPU via the **Data Bus (数据总线)** and is stored in the **Memory Data Register (MDR / 内存数据寄存器)**.

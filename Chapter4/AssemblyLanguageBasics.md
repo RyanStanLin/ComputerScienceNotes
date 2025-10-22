@@ -137,3 +137,11 @@ These instructions handle input/output operations and program termination.
 | `IN` | | Take **in**put from the keyboard and store its ASCII value in ACC. |
 | `OUT` | | **Out**put to the screen the character whose ASCII value is stored in ACC. |
 | `END` | | **End** the program and return control to the operating system. |
+
+#### Identify the State of Bits
+
+Use AND operation to check the state of the Bit.
+
+Use OR for setting the value to specific 1 and 0.
+
+XOR for flip bits.
